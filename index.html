@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>Attentive Reader</title>
+    <link rel="icon" type="image/x-icon" href="book_fav_icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>Attentive Reader</h1>
+    <textarea id="textContent" placeholder=" Paste text"></textarea>
+    <button id="clearText" class="ct" onclick="clearTextArea()">Clear text!</button>
+    <div class="inputText">
+        <input id="numWords" type="text" placeholder="Enter no. of words/line" required>
+        <input id="numLines" type="text" placeholder="Enter no. of lines/block" required>
+    </div>
+    <div class="inputText">
+        <button type="submit" class="readBtn btn" onclick="createCards()">Let's get reading!</button>
+        <button class="clearBtn btn" onclick="clearCards()">Clear blocks!</button>
+    </div>
+    <div id="container"></div>
+    <script src="index.js"></script>
+</body>
+
+</html>

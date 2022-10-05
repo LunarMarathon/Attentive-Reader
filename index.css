@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700;800&display=swap');
+
+@font-face{
+    font-family: 'omiwa';
+    src: url('Omiwa-ALPJD.otf');
+}
+
+@font-face{
+    font-family: 'dancetoday';
+    src: url('DanceToday-JRdzM.otf');
+}
+
+body {
+    margin: 0;
+    /* background-color: #b2ff59; */
+    background-color: #4e4a41;
+    color:#202121;
+    font-family: 'Karla';
+}
+
+h1{
+    font-family: 'Karla';
+    font-weight: 800;
+    text-align: center;
+    font-size: 50px;
+    color: #C7BE92;
+}
+
+#container{
+    white-space:pre-wrap; 
+    margin: 30px 0px; 
+}
+
+.inputText{
+    display: flex; 
+    justify-content: center;
+    /* border: 1px solid blue; */
+    align-items: center;
+}
+
+textarea{
+    margin: 30px auto;
+    display: block;
+    height: 150px;
+    width: 500px;
+    background-color:#6e6659;
+    color:#202121;
+    border:none;
+    border-radius: 3px;
+    padding: 7px;  
+}
+
+.ct{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border:none;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 600;
+    padding: 5px 10px;
+    font-size: 18px;
+    line-height: 24px;
+    color:#202121;
+    /* color: #EEEEEE; */
+    /* background-color: #b2ff59; */
+    background-color: #C7BE92;
+    cursor: pointer;
+}
+
+input{
+    margin:15px;
+    background-color: #C7BE92;
+    border:none;
+    border-radius: 3px;
+    padding: 7px;
+}
+
+/* .readBtn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+} */
+
+.btn{
+    margin: 0px 15px;
+    border-radius: 5px;
+    border:none;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 600;
+    padding: 5px 10px;
+    font-size: 18px;
+    line-height: 24px;
+    color:#202121;
+    /* color: #EEEEEE; */
+    /* background-color: #b2ff59; */
+    background-color: #C7BE92;
+    cursor: pointer;
+}
+
+/* .clearBtn,{
+    background-color: #C7BE92;
+} */
+
+.blocks{
+    /* border:1px solid #EEEEEE; */
+    width: 500px;
+    margin:5px auto;
+    padding: 10px;
+    background-color:#6e6659;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
